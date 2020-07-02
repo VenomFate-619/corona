@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <style>
+      
+      .loader
+      {
+         position: fixed;
+         width: 100%;
+         height: 100%;
+         background-color: darkgray;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+      .disapper
+      {
+         animation: vanish 6s forwards;
+      }
+      @keyframes vanish {
+         100%
+         {
+            opacity: 0;
+            display: none;
+         }
+      }
+
+   </style>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+   <title>Document</title>
+</head>
+
+<body>
+   <div class="loader ">
+      <img src="img/load-gif.gif" alt="loader" srcset="">
+   </div>
+   <div class="container">
+      <h1 class="display-2">COVID-19</h1>
+   </div>
+   <div class="container mt-3    ">
+      <select name="" id="s1">
+         <option value="Selected" selected disabled>Select country</option>
+      </select>
+   </div>
+<div class="container mt-3 wrapper ">
+      <!-- <div class="card-columns">
+         <div class="card bg-primary text-light">
+            <div class="card-body">
+               <h5 class="card-title">Case</h5>
+               <p class="card-text ">${total_cases}</p>
+            </div>
+         </div>
+
+            <div class="card bg-success text-light">
+               <div class="card-body">
+                  <h5 class="card-title">Recovered</h5>
+                  <p class="card-text">${total_recovered}</p>
+               </div>
+            </div>
+         
+ 
+            <div class="card bg-danger text-light">
+               <div class="card-body">
+                  <h5 class="card-title">Death</h5>
+                  <p class="card-text">${total_deaths}</p>
+               </div>
+            </div>
+         
+
+            <div class="card bg-dark text-light">
+               <div class="card-body ">
+                  <h5 class="card-title">Active Case</h5>
+                  <p class="card-text">${total_active_cases}</p>
+               </div>
+            </div>
+         
+      </div> -->
+</div>
+
+
+
+      <script src="practise1.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+      <!-- Popper JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+      </script>
+</body>
+
+</html>
